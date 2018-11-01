@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#"
+     xml:base="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#nameofbrand -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#nameofbrand">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#sizeof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#sizeof">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Size"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#typeof -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#typeof">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brown_Eggs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brown_Eggs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Burnbrae_Farms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Burnbrae_Farms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Country_Golden_Yolks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Country_Golden_Yolks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Extra_Large -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Extra_Large">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Farmers_Finest_Confort_Coop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Farmers_Finest_Confort_Coop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Bird -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Bird">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Range -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Range">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Range_brown_eggs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Range_brown_eggs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Golden_D -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Golden_D">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Harman_Enriched -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Harman_Enriched">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Large -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Large">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Medium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Naturegg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Naturegg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#No_Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#No_Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#PC_Organic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#PC_Organic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#free_run_brown_eggs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#free_run_brown_eggs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#free_run_eggs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#free_run_eggs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#grade_a_white_eggs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#grade_a_white_eggs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#omega_3_brown_eggs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#omega_3_brown_eggs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#omega_3_white_eggs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#omega_3_white_eggs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#organic_eggs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#organic_eggs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#price -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#price">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#white_eggs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#white_eggs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#President&apos;s_Choice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#President&apos;s_Choice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brown_Eggs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Range"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Range_brown_eggs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#free_run_brown_eggs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#free_run_eggs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#grade_a_white_eggs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#omega_3_brown_eggs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#omega_3_white_eggs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#organic_eggs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#white_eggs"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Burnbrae_Farms"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Country_Golden_Yolks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Farmers_Finest_Confort_Coop"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Bird"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Golden_D"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Harman_Enriched"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Naturegg"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#No_Name"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#PC_Organic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#President&apos;s_Choice"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Extra_Large"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Large"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Medium"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
