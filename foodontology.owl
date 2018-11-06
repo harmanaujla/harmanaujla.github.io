@@ -6,7 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology"/>
+    <owl:Ontology rdf:about="https://harmanaujla.github.io/foodontology.owl"/>
     
 
 
@@ -21,29 +21,58 @@
     
 
 
-    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#nameofbrand -->
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#categories_of_type -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#nameofbrand">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#categories_of_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brown_Eggs"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Range"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Range_brown_eggs"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#free_run_brown_eggs"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#free_run_eggs"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#grade_a_white_eggs"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#omega_3_brown_eggs"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#omega_3_white_eggs"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#organic_eggs"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#white_eggs"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#product_of_brand -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#product_of_brand">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Bird"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Golden_D"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Harman_Enriched"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Naturegg"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#No_Name"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#PC"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Preseident&apos;s_Choice"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#sizeof -->
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#type_of_price -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#sizeof">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Size"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#type_of_price">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#deal_valid"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#deals_price"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#original_price"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#sale_price_per_unit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#price"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#typeof -->
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#type_of_sizes -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#typeof">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#type_of_sizes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#count"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#grams"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#ounces"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Size"/>
     </owl:ObjectProperty>
     
 
@@ -75,25 +104,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Burnbrae_Farms -->
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Eggs -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Burnbrae_Farms">
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Eggs">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Country_Golden_Yolks -->
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Foremost -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Country_Golden_Yolks">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Farmers_Finest_Confort_Coop -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Farmers_Finest_Confort_Coop">
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Foremost">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
     </owl:Class>
     
@@ -119,6 +140,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Range_brown_eggs">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Types"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Run_Eggs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Run_Eggs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
     </owl:Class>
     
 
@@ -155,9 +184,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#PC_Organic -->
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#PC -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#PC_Organic">
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#PC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Rabbit_River -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Rabbit_River">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
     </owl:Class>
     
@@ -187,6 +224,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#deal_valid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#deal_valid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#price"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#deals_price -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#deals_price">
@@ -205,7 +250,9 @@
 
     <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
     
 
 
@@ -236,8 +283,7 @@
     <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#grams -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#grams">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#weight"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#ounces"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Size"/>
     </owl:Class>
     
 
@@ -277,7 +323,7 @@
     <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#ounces -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#ounces">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#weight"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Size"/>
     </owl:Class>
     
 
@@ -290,34 +336,18 @@
     
 
 
-    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#price_per_gram -->
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#sale_price_per_unit -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#price_per_gram">
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#sale_price_per_unit">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#price"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#price_per_ounce -->
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#size -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#price_per_ounce">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#price"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#sizetype -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#sizetype">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Size"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#weight -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#weight">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Size"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#eggs"/>
     </owl:Class>
     
 
@@ -330,9 +360,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#President&apos;s_Choice -->
+    <!-- http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Preseident&apos;s_Choice -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#President&apos;s_Choice">
+    <owl:Class rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Preseident&apos;s_Choice">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Brands"/>
     </owl:Class>
     
@@ -364,33 +394,18 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Burnbrae_Farms"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Country_Golden_Yolks"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Farmers_Finest_Confort_Coop"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Free_Bird"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Golden_D"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Harman_Enriched"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#Naturegg"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#No_Name"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#PC_Organic"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#President&apos;s_Choice"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#count"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#sizetype"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#weight"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#grams"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#ounces"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#deal_valid"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#deals_price"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#original_price"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#price_per_gram"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#price_per_ounce"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harmanaujla/ontologies/2018/9/foodontology#sale_price_per_unit"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
