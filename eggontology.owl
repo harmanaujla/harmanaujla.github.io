@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://harmanaujla.github.io/eggontology.owl#"
+     xml:base="https://harmanaujla.github.io/eggontology.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://harmanaujla.github.io/eggontology.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#brandname -->
+
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#brandname">
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Brands_Name"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#detailsof -->
+
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#detailsof">
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Description"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#eggprice -->
+
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#eggprice">
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Deals"/>
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Deals_Valid_date"/>
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Original_Price"/>
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Sale_Price"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Price"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#eggsize -->
+
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#eggsize">
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Counts"/>
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Grams"/>
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Ounces"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#typeof -->
+
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#typeof">
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Types"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#typesofeggsize -->
+
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#typesofeggsize">
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Size_type"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Brands_Name -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Brands_Name">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Counts -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Counts">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Deals -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Deals">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Price"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Deals_Valid_date -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Deals_Valid_date">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Price"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Description -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Description">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Egg_Sizes -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Grams -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Grams">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Original_Price -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Original_Price">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Price"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Ounces -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Ounces">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Price -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Price">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Sale_Price -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Sale_Price">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Price"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Size_type -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Size_type">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Types -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Types">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#eggs -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#eggs">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#food"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#food -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#food"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Brands_Name"/>
+            <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Description"/>
+            <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
+            <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Price"/>
+            <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Types"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Counts"/>
+            <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Grams"/>
+            <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Ounces"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Deals"/>
+            <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Deals_Valid_date"/>
+            <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Original_Price"/>
+            <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Sale_Price"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
