@@ -21,61 +21,124 @@
     
 
 
-    <!-- https://harmanaujla.github.io/eggontology.owl#brandname -->
+    <!-- https://harmanaujla.github.io/eggontology.owl#isbrandnameof -->
 
-    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#brandname">
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#isbrandnameof">
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Brands_Name"/>
         <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://harmanaujla.github.io/eggontology.owl#detailsof -->
+    <!-- https://harmanaujla.github.io/eggontology.owl#isdealsvaliddate -->
 
-    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#detailsof">
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#isdealsvaliddate">
+        <rdfs:subPropertyOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#ispriceof"/>
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Deals_Valid_date"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Price"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#isdealtype -->
+
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#isdealtype">
+        <rdfs:subPropertyOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#ispriceof"/>
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Deals"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Price"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#isdetailsof -->
+
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#isdetailsof">
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Description"/>
         <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://harmanaujla.github.io/eggontology.owl#eggprice -->
+    <!-- https://harmanaujla.github.io/eggontology.owl#iseggsizes -->
 
-    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#eggprice">
-        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Deals"/>
-        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Deals_Valid_date"/>
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#iseggsizes">
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#isoriginalprice -->
+
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#isoriginalprice">
+        <rdfs:subPropertyOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#ispriceof"/>
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Original_Price"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Price"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#ispriceof -->
+
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#ispriceof">
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Price"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#issalepriceof -->
+
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#issalepriceof">
+        <rdfs:subPropertyOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#ispriceof"/>
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Sale_Price"/>
         <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Price"/>
-        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://harmanaujla.github.io/eggontology.owl#eggsize -->
+    <!-- https://harmanaujla.github.io/eggontology.owl#issizeincounts -->
 
-    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#eggsize">
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#issizeincounts">
+        <rdfs:subPropertyOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#iseggsizes"/>
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Counts"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#issizeingrams -->
+
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#issizeingrams">
+        <rdfs:subPropertyOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#iseggsizes"/>
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Grams"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#issizeinounces -->
+
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#issizeinounces">
+        <rdfs:subPropertyOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#iseggsizes"/>
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Ounces"/>
         <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
-        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://harmanaujla.github.io/eggontology.owl#typeof -->
+    <!-- https://harmanaujla.github.io/eggontology.owl#istypeof -->
 
-    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#typeof">
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#istypeof">
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Types"/>
         <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://harmanaujla.github.io/eggontology.owl#typesofeggsize -->
+    <!-- https://harmanaujla.github.io/eggontology.owl#istypeofsize -->
 
-    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#typesofeggsize">
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#istypeofsize">
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Size_type"/>
         <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
     </owl:ObjectProperty>
