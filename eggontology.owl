@@ -68,6 +68,15 @@
     
 
 
+    <!-- https://harmanaujla.github.io/eggontology.owl#isimageof -->
+
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#isimageof">
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs_image"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://harmanaujla.github.io/eggontology.owl#islocatedat -->
 
     <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#islocatedat">
@@ -273,6 +282,14 @@
 
     <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#eggs">
         <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#food"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#eggs_image -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#eggs_image">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
     </owl:Class>
     
 
