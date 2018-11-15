@@ -7,8 +7,8 @@
 	xmlns:EO="https://harmanaujla.github.io/eggontology.owl"
 	xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
-<rdf:Description rdf:about="http://localhost:3333/0">
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">President's Choice </isbrandnameof>
+<rdf:Description rdf:about="https://harmanaujla.github.io0">
+	<rdfs:label>President's Choice </rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Eggs, Omega-3</istypeof>
 	<issizeingrams xmlns="https://harmanaujla.github.io/eggontology.owl#">(88 g)</issizeingrams>
 	<isoriginalprice xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">$1.29 ea</isoriginalprice>
@@ -27,23 +27,23 @@ Sale Price Per Unit: $1.47 / 100 g</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/0">
+<rdf:Description rdf:about="https://harmanaujla.github.io0">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/21049546/b1/en/front/21049546_front_a01.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/0">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io0">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/1">
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">No Name </isbrandnameof>
+<rdf:Description rdf:about="https://harmanaujla.github.io1">
+	<issizeincounts xmlns="https://harmanaujla.github.io/eggontology.owl#">(12 Eggs)</issizeincounts>
+	<rdfs:label>No Name </rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Grade A White Eggs</istypeof>
 	<istypeofsize xmlns="https://harmanaujla.github.io/eggontology.owl#">Large</istypeofsize>
-	<issizeincounts xmlns="https://harmanaujla.github.io/eggontology.owl#">(12 Eggs)</issizeincounts>
 	<isoriginalprice xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">$2.33 ea</isoriginalprice>
 	<issalepriceof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">Sale Price Per Unit: $0.19 ea</issalepriceof>
 	<isdealtype xmlns="https://harmanaujla.github.io/eggontology.owl#">$2.33 LIMIT 1</isdealtype>
@@ -60,25 +60,25 @@ Sale Price Per Unit: $0.19 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/1">
+<rdf:Description rdf:about="https://harmanaujla.github.io1">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/20812144001/b1/en/front/20812144001_front_a01.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/1">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io1">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/2">
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">No Name </isbrandnameof>
+<rdf:Description rdf:about="https://harmanaujla.github.io2">
+	<isoriginalprice xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">$3.37 ea</isoriginalprice>
+	<issalepriceof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">Sale Price Per Unit: $0.28 ea</issalepriceof>
+	<rdfs:label>No Name </rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Grade A White Eggs</istypeof>
 	<istypeofsize xmlns="https://harmanaujla.github.io/eggontology.owl#">Extra Large</istypeofsize>
 	<issizeincounts xmlns="https://harmanaujla.github.io/eggontology.owl#">(12 Eggs)</issizeincounts>
-	<isoriginalprice xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">$3.37 ea</isoriginalprice>
-	<issalepriceof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">Sale Price Per Unit: $0.28 ea</issalepriceof>
 	<isdetailsof xmlns="https://harmanaujla.github.io/eggontology.owl#">No Name  Grade A White Eggs, Extra Large (12 Eggs)
 $3.37 ea
 Sale Price Per Unit: $0.28 ea</isdetailsof>
@@ -89,20 +89,20 @@ Sale Price Per Unit: $0.28 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/2">
+<rdf:Description rdf:about="https://harmanaujla.github.io2">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/20812726001/b1/en/front/20812726001_front_a01.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/2">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io2">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/3">
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">PC </isbrandnameof>
+<rdf:Description rdf:about="https://harmanaujla.github.io3">
+	<rdfs:label>PC </rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Blue Menu Omega 3 White Eggs</istypeof>
 	<issizeincounts xmlns="https://harmanaujla.github.io/eggontology.owl#">(12 Eggs)</issizeincounts>
 	<isoriginalprice xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">$3.78 ea</isoriginalprice>
@@ -121,21 +121,21 @@ Sale Price Per Unit: $0.32 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/3">
+<rdf:Description rdf:about="https://harmanaujla.github.io3">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/20813961001/b1/en/front/20813961001_front_a01.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/3">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io3">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/4">
+<rdf:Description rdf:about="https://harmanaujla.github.io4">
 	<issizeincounts xmlns="https://harmanaujla.github.io/eggontology.owl#">(12 Eggs)</issizeincounts>
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">No Name </isbrandnameof>
+	<rdfs:label>No Name </rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Brown Eggs</istypeof>
 	<istypeofsize xmlns="https://harmanaujla.github.io/eggontology.owl#">Large</istypeofsize>
 	<isoriginalprice xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">$3.85 ea</isoriginalprice>
@@ -150,20 +150,20 @@ Sale Price Per Unit: $0.32 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/4">
+<rdf:Description rdf:about="https://harmanaujla.github.io4">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/20813936001/b1/en/front/20813936001_front_a01.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/4">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io4">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/5">
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">PC </isbrandnameof>
+<rdf:Description rdf:about="https://harmanaujla.github.io5">
+	<rdfs:label>PC </rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Omega 3 Brown Eggs</istypeof>
 	<issizeincounts xmlns="https://harmanaujla.github.io/eggontology.owl#">(12 Eggs)</issizeincounts>
 	<isoriginalprice xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">$3.98 ea</isoriginalprice>
@@ -182,21 +182,21 @@ Sale Price Per Unit: $0.33 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/5">
+<rdf:Description rdf:about="https://harmanaujla.github.io5">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/20813969001/b1/en/front/20813969001_front_a01.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/5">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io5">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/6">
+<rdf:Description rdf:about="https://harmanaujla.github.io6">
 	<issizeincounts xmlns="https://harmanaujla.github.io/eggontology.owl#">(12 Eggs)</issizeincounts>
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">Naturegg </isbrandnameof>
+	<rdfs:label>Naturegg </rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Omega 3 White Eggs</istypeof>
 	<istypeofsize xmlns="https://harmanaujla.github.io/eggontology.owl#">Large</istypeofsize>
 	<isoriginalprice xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">$4.55 ea</isoriginalprice>
@@ -215,22 +215,22 @@ Sale Price Per Unit: $0.38 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/6">
+<rdf:Description rdf:about="https://harmanaujla.github.io6">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/20815563001/b1/en/front/20815563001_front_a01.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/6">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io6">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/7">
+<rdf:Description rdf:about="https://harmanaujla.github.io7">
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Premium Large White Eggs</istypeof>
 	<istypeofsize xmlns="https://harmanaujla.github.io/eggontology.owl#">Large</istypeofsize>
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">Foremost</isbrandnameof>
+	<rdfs:label>Foremost</rdfs:label>
 	<issizeinounces xmlns="https://harmanaujla.github.io/eggontology.owl#">(18 ea)</issizeinounces>
 	<isoriginalprice xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">$4.97 ea</isoriginalprice>
 	<issalepriceof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">Sale Price Per Unit: $0.28 ea</issalepriceof>
@@ -244,20 +244,20 @@ Sale Price Per Unit: $0.28 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/7">
+<rdf:Description rdf:about="https://harmanaujla.github.io7">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/20976887001/b1/en/front/20976887001_front_a01.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/7">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io7">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/8">
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">Harman Enriched</isbrandnameof>
+<rdf:Description rdf:about="https://harmanaujla.github.io8">
+	<rdfs:label>Harman Enriched</rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Harman Enriched</istypeof>
 	<istypeofsize xmlns="https://harmanaujla.github.io/eggontology.owl#">Large</istypeofsize>
 	<issizeinounces xmlns="https://harmanaujla.github.io/eggontology.owl#">(18 ea)</issizeinounces>
@@ -277,22 +277,22 @@ Sale Price Per Unit: $0.29 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/8">
+<rdf:Description rdf:about="https://harmanaujla.github.io8">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/NoImage/b1/en/front/NoImage_front_a01_@2.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/8">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io8">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/9">
+<rdf:Description rdf:about="https://harmanaujla.github.io9">
+	<rdfs:label>PC </rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Free Run Brown Eggs</istypeof>
 	<issizeincounts xmlns="https://harmanaujla.github.io/eggontology.owl#">(12 Eggs)</issizeincounts>
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">PC </isbrandnameof>
 	<isoriginalprice xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">$5.35 ea</isoriginalprice>
 	<issalepriceof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">Sale Price Per Unit: $0.45 ea</issalepriceof>
 	<isdealtype xmlns="https://harmanaujla.github.io/eggontology.owl#">2 FOR $10.00</isdealtype>
@@ -309,23 +309,23 @@ Sale Price Per Unit: $0.45 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/9">
+<rdf:Description rdf:about="https://harmanaujla.github.io9">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/20813628001/b1/en/front/20813628001_front_a01.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/9">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io9">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/10">
-	<issizeincounts xmlns="https://harmanaujla.github.io/eggontology.owl#">(18 Eggs)</issizeincounts>
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">Golden D</isbrandnameof>
+<rdf:Description rdf:about="https://harmanaujla.github.io10">
+	<rdfs:label>Golden D</rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Golden D White Eggs</istypeof>
 	<istypeofsize xmlns="https://harmanaujla.github.io/eggontology.owl#">Large</istypeofsize>
+	<issizeincounts xmlns="https://harmanaujla.github.io/eggontology.owl#">(18 Eggs)</issizeincounts>
 	<isoriginalprice xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">$5.57 ea</isoriginalprice>
 	<issalepriceof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">Sale Price Per Unit: $0.31 ea</issalepriceof>
 	<isdetailsof xmlns="https://harmanaujla.github.io/eggontology.owl#">Golden D White Eggs, Large (18 Eggs)
@@ -338,20 +338,20 @@ Sale Price Per Unit: $0.31 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/10">
+<rdf:Description rdf:about="https://harmanaujla.github.io10">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/20819807001/b1/en/front/20819807001_front_a01.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/10">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io10">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/11">
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">Free Bird </isbrandnameof>
+<rdf:Description rdf:about="https://harmanaujla.github.io11">
+	<rdfs:label>Free Bird </rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Free Bird Free Range Large Eggs</istypeof>
 	<istypeofsize xmlns="https://harmanaujla.github.io/eggontology.owl#">Large</istypeofsize>
 	<issizeinounces xmlns="https://harmanaujla.github.io/eggontology.owl#">(12 ea)</issizeinounces>
@@ -367,20 +367,20 @@ Sale Price Per Unit: $0.49 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/11">
+<rdf:Description rdf:about="https://harmanaujla.github.io11">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/21033226001/b1/en/front/21033226001_front_a01.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/11">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io11">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/12">
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">Free Run Eggs</isbrandnameof>
+<rdf:Description rdf:about="https://harmanaujla.github.io12">
+	<rdfs:label>Free Run Eggs</rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Free Run Eggs</istypeof>
 	<istypeofsize xmlns="https://harmanaujla.github.io/eggontology.owl#">Large</istypeofsize>
 	<issizeingrams xmlns="https://harmanaujla.github.io/eggontology.owl#">(18 g)</issizeingrams>
@@ -396,20 +396,20 @@ Sale Price Per Unit: $0.33 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/12">
+<rdf:Description rdf:about="https://harmanaujla.github.io12">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/NoImage/b1/en/front/NoImage_front_a01_@2.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/12">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io12">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/13">
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">Rabbit River </isbrandnameof>
+<rdf:Description rdf:about="https://harmanaujla.github.io13">
+	<rdfs:label>Rabbit River </rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Rabbit River Large Organic Eggs</istypeof>
 	<istypeofsize xmlns="https://harmanaujla.github.io/eggontology.owl#">Large</istypeofsize>
 	<issizeincounts xmlns="https://harmanaujla.github.io/eggontology.owl#">(12 Eggs)</issizeincounts>
@@ -425,20 +425,20 @@ Sale Price Per Unit: $0.57 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/13">
+<rdf:Description rdf:about="https://harmanaujla.github.io13">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/20821561001/b1/en/front/20821561001_front_a01.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/13">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io13">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/14">
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">PC </isbrandnameof>
+<rdf:Description rdf:about="https://harmanaujla.github.io14">
+	<rdfs:label>PC </rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Free-Range Brown Eggs</istypeof>
 	<issizeincounts xmlns="https://harmanaujla.github.io/eggontology.owl#">(12 Eggs)</issizeincounts>
 	<isoriginalprice xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">$6.98 ea</isoriginalprice>
@@ -453,20 +453,20 @@ Sale Price Per Unit: $0.58 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/14">
+<rdf:Description rdf:about="https://harmanaujla.github.io14">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/20813389001/b1/en/front/20813389001_front_a01.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/14">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io14">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/15">
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">Eggs</isbrandnameof>
+<rdf:Description rdf:about="https://harmanaujla.github.io15">
+	<rdfs:label>Eggs</rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Eggs, Large</istypeof>
 	<istypeofsize xmlns="https://harmanaujla.github.io/eggontology.owl#">Large</istypeofsize>
 	<issizeinounces xmlns="https://harmanaujla.github.io/eggontology.owl#">(30 ea)</issizeinounces>
@@ -482,20 +482,20 @@ Sale Price Per Unit: $0.24 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/15">
+<rdf:Description rdf:about="https://harmanaujla.github.io15">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/NoImage/b1/en/front/NoImage_front_a01_@2.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/15">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io15">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/16">
-	<isbrandnameof xmlns="https://harmanaujla.github.io/eggontology.owl#">Naturegg </isbrandnameof>
+<rdf:Description rdf:about="https://harmanaujla.github.io16">
+	<rdfs:label>Naturegg </rdfs:label>
 	<istypeof xmlns="https://harmanaujla.github.io/eggontology.owl#">Organic Eggs</istypeof>
 	<istypeofsize xmlns="https://harmanaujla.github.io/eggontology.owl#">Large</istypeofsize>
 	<issizeinounces xmlns="https://harmanaujla.github.io/eggontology.owl#">(30 ea)</issizeinounces>
@@ -511,16 +511,16 @@ Sale Price Per Unit: $0.48 ea</isdetailsof>
 	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/16">
+<rdf:Description rdf:about="https://harmanaujla.github.io16">
 	<isimageof xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://assets.shop.loblaws.ca/products/20990637001/b1/en/front/20990637001_front_a01.png"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK">
+<rdf:Description rdf:about="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK">
 	<rdf:type rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://localhost:3333/16">
-	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="http://localhost:3333/Golden+Mile%2C+Regina%2C+SK"/>
+<rdf:Description rdf:about="https://harmanaujla.github.io16">
+	<islocatedat xmlns="https://harmanaujla.github.io/eggontology.owl#" rdf:resource="https://harmanaujla.github.ioGolden+Mile%2C+Regina%2C+SK"/>
 </rdf:Description>
 
 </rdf:RDF>
