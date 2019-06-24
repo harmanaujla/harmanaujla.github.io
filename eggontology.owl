@@ -25,7 +25,7 @@
 
     <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#isbrandnameof">
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Brands_Name"/>
-        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
     </owl:ObjectProperty>
     
 
@@ -54,7 +54,7 @@
 
     <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#isdetailsof">
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Description"/>
-        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
     </owl:ObjectProperty>
     
 
@@ -63,7 +63,7 @@
 
     <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#iseggsizes">
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
-        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
     </owl:ObjectProperty>
     
 
@@ -71,8 +71,8 @@
     <!-- https://harmanaujla.github.io/eggontology.owl#isimageof -->
 
     <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#isimageof">
-        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs_image"/>
-        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs_image"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
     </owl:ObjectProperty>
     
 
@@ -80,8 +80,8 @@
     <!-- https://harmanaujla.github.io/eggontology.owl#islocatedat -->
 
     <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#islocatedat">
-        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#location"/>
-        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Location"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
     </owl:ObjectProperty>
     
 
@@ -100,7 +100,7 @@
 
     <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#ispriceof">
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Price"/>
-        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
     </owl:ObjectProperty>
     
 
@@ -121,25 +121,16 @@
         <rdfs:subPropertyOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#iseggsizes"/>
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Counts"/>
         <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
+        <owl:propertyDisjointWith rdf:resource="https://harmanaujla.github.io/eggontology.owl#issizeinmass"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://harmanaujla.github.io/eggontology.owl#issizeingrams -->
+    <!-- https://harmanaujla.github.io/eggontology.owl#issizeinmass -->
 
-    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#issizeingrams">
+    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#issizeinmass">
         <rdfs:subPropertyOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#iseggsizes"/>
-        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Grams"/>
-        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://harmanaujla.github.io/eggontology.owl#issizeinounces -->
-
-    <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#issizeinounces">
-        <rdfs:subPropertyOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#iseggsizes"/>
-        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Ounces"/>
+        <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Mass"/>
         <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
     </owl:ObjectProperty>
     
@@ -149,7 +140,7 @@
 
     <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#istypeof">
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Types"/>
-        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
     </owl:ObjectProperty>
     
 
@@ -158,7 +149,7 @@
 
     <owl:ObjectProperty rdf:about="https://harmanaujla.github.io/eggontology.owl#istypeofsize">
         <rdfs:domain rdf:resource="https://harmanaujla.github.io/eggontology.owl#Size_type"/>
-        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+        <rdfs:range rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
     </owl:ObjectProperty>
     
 
@@ -177,7 +168,15 @@
     <!-- https://harmanaujla.github.io/eggontology.owl#Brands_Name -->
 
     <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Brands_Name">
-        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Chicken -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Chicken">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#food"/>
     </owl:Class>
     
 
@@ -186,6 +185,7 @@
 
     <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Counts">
         <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
+        <owl:disjointWith rdf:resource="https://harmanaujla.github.io/eggontology.owl#Mass"/>
     </owl:Class>
     
 
@@ -209,7 +209,7 @@
     <!-- https://harmanaujla.github.io/eggontology.owl#Description -->
 
     <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Description">
-        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
     </owl:Class>
     
 
@@ -217,14 +217,38 @@
     <!-- https://harmanaujla.github.io/eggontology.owl#Egg_Sizes -->
 
     <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes">
-        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
     </owl:Class>
     
 
 
-    <!-- https://harmanaujla.github.io/eggontology.owl#Grams -->
+    <!-- https://harmanaujla.github.io/eggontology.owl#Eggs -->
 
-    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Grams">
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Eggs">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Chicken"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Eggs_image -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Eggs_image">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Location -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Location">
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
+    </owl:Class>
+    
+
+
+    <!-- https://harmanaujla.github.io/eggontology.owl#Mass -->
+
+    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Mass">
         <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
     </owl:Class>
     
@@ -238,18 +262,10 @@
     
 
 
-    <!-- https://harmanaujla.github.io/eggontology.owl#Ounces -->
-
-    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Ounces">
-        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
-    </owl:Class>
-    
-
-
     <!-- https://harmanaujla.github.io/eggontology.owl#Price -->
 
     <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Price">
-        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
     </owl:Class>
     
 
@@ -265,7 +281,7 @@
     <!-- https://harmanaujla.github.io/eggontology.owl#Size_type -->
 
     <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Size_type">
-        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
     </owl:Class>
     
 
@@ -273,23 +289,7 @@
     <!-- https://harmanaujla.github.io/eggontology.owl#Types -->
 
     <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#Types">
-        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
-    </owl:Class>
-    
-
-
-    <!-- https://harmanaujla.github.io/eggontology.owl#eggs -->
-
-    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#eggs">
-        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#food"/>
-    </owl:Class>
-    
-
-
-    <!-- https://harmanaujla.github.io/eggontology.owl#eggs_image -->
-
-    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#eggs_image">
-        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
+        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#Eggs"/>
     </owl:Class>
     
 
@@ -297,14 +297,6 @@
     <!-- https://harmanaujla.github.io/eggontology.owl#food -->
 
     <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#food"/>
-    
-
-
-    <!-- https://harmanaujla.github.io/eggontology.owl#location -->
-
-    <owl:Class rdf:about="https://harmanaujla.github.io/eggontology.owl#location">
-        <rdfs:subClassOf rdf:resource="https://harmanaujla.github.io/eggontology.owl#eggs"/>
-    </owl:Class>
     
 
 
@@ -324,14 +316,6 @@
             <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Egg_Sizes"/>
             <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Price"/>
             <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Types"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Counts"/>
-            <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Grams"/>
-            <rdf:Description rdf:about="https://harmanaujla.github.io/eggontology.owl#Ounces"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
